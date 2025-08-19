@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class MergeSortedArrays {
+public class Day4 {
     static void merge(int[] arr1, int[] arr2, int m, int n) {
         int i = m - 1, j = 0;
         while (i >= 0 && j < n) {
